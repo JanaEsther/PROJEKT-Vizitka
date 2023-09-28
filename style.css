@@ -2,6 +2,7 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
@@ -16,12 +17,88 @@ tlačítko Facebook aktivní: #2b406e
 
 body{
     background: #b2bec3;
+    font-family:  'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    
 }
 
 h1{
     color:#d63031;
+    font-size: 36px;
+    padding-bottom: 0;
+    margin:0
 }
 
 .box{
     background-color:white;
+    padding: 30px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 150px 0 150px 300px;
+    overflow:hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    position:static; 
+        
+ 
+}
+
+.prvni {
+    padding: 0;
+    overflow: auto;
+
+    
+}
+
+.druhy { 
+    margin-bottom: 30px;
+} 
+
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid white 3px;
+    margin: 0;
+    position: absolute; top: 75px; right:425px; 
+    
+  
+
+}
+
+.horni{
+    background-color:#1da1f2;
+    height: 40px; 
+    width: 490px;
+    border:#1da1f2 solid 1px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    
+}
+
+.horni a{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    }    
+    
+.horni:hover, .horni:focus, .horni:active {
+    background-color:#0b7bc1;
+
+}
+
+.dolni{
+    background-color: #3b5998;
+    margin-top: 5px;
+}
+
+.dolni:hover, .dolni:focus, .dolni:active {
+    background-color:#2b406e;
 }
