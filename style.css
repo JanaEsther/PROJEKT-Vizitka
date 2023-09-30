@@ -35,9 +35,11 @@ h1{
     padding: 30px;
     width: 550px;
     border-radius: 10px;
-    margin: 150px 0 150px 300px;
+    margin: 150px 300px 150px 300px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
-    position:relative; 
+    position:relative;
+    display: block;
+
         
  
 }
@@ -61,7 +63,8 @@ img{
     border-radius: 50%;
     border: solid white 3px;
     margin: 0;
-    position: absolute; bottom: 355px; right: -75px;
+    position: absolute; top: -75px; left: 475px;
+    display: inline-block;
     
    
 
